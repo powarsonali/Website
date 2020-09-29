@@ -1,0 +1,108 @@
+body {
+    display: grid;
+    grid-template-columns: minmax(120px, 16%) 1fr;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar {
+    height: 100%;
+    background: linear-gradient(95deg, #5533ff 40%, #25ddf5 100%);
+    text-align: center;
+    padding-top: 2rem;
+  }
+  
+  
+  .content {
+    padding: 2rem;
+  }
+  .header {
+      font-size: 4.5vh;
+      text-align: center;
+      font-family: Impact, Charcoal, sans-serif;
+      
+  }
+  .icon {
+   
+    border-radius: 100%;
+    border: 1px solid #3ecf8e;
+    padding: 15px;
+  }
+
+hr{
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double  #3ecf8e;
+    color:  #3ecf8e;
+    text-align: center;
+}
+hr:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+.img-top{
+    height: 10vh;
+    width: 10vh;
+    align-self: center;
+}
+
+.download-btn
+{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.7em;
+    box-sizing: border-box;
+    box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
+    text-decoration:none;
+    font-family:'Rubik',sans-serif;
+    color: #FFFFFF;
+    transition: all 0.2s;
+   
+}
+.download-btn:hover
+{
+    color: green;
+    background-color:#FFFFFF;
+}
+@media all and (max-width:30em)
+{
+     .download-btn
+    {
+        display:block;
+        margin:0.4em auto;
+    }
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 99;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: linear-gradient(95deg, #5533ff 40%, #25ddf5 100%);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+
+  body 
+  {
+    font-family: system-ui, serif;
+  }
